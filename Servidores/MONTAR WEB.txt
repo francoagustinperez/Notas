@@ -1,0 +1,24 @@
+apt-get install apache2 -y
+
+apt-get install php libapache2-mod-php -y
+
+apt-get install unzip
+
+#
+nano /etc/apache2/apache2.conf
+## /var/www AllowOverride en "All"
+
+#Eliminamos el index por defecto de apache
+rm -rf /var/www/html/index.html
+
+#Subimos nuestro scam
+
+a2enmod rewrite
+service apache2 restart
+
+chown -R www-data:www-data /var/www
+
+find /var/www -type d -exec chmod 755 {} \;
+
+find /var/www -type f -exec chmod 644 {} \;
+

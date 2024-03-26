@@ -1,0 +1,2 @@
+ Fue creado por *Guido Van Rosun* en *1989* un programador Holandes durante su tiempo en el centro de informatica donde estudiaba queria hacer un lenguaje facil de hacer con pocas lineas de codigo comparado a los lenguajes de esa epoca los cuales eran *c++* y java el queria hacer la vida del programador mas facil. No hacer que la maquina funcione mas eficiente por eso python es conocido por su sintaxis sencilla y clara
+
